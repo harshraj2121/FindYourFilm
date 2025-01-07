@@ -1,6 +1,6 @@
-export { removetv } from '../reducers/tvslice'
+export { removetv } from '../reducers/Tvslice'
 import axios from '../../components/utls/Axios'
-import { loadtv } from '../reducers/tvslice'
+import { loadtv } from '../reducers/Tvslice'
 
 export const asyncloadtv = (id) => async (dispatch, getstate) => {
     try {

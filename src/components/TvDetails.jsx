@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Link, Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
+import { Link, Outlet, useNavigate, useParams } from 'react-router-dom';
 import { asyncloadtv, removetv } from '../store/actions/tvActions';
 import Loading from './Loading'
 import Horozontalcards from './partials/Horozontalcards'
