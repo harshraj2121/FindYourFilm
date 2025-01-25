@@ -5,7 +5,7 @@ import noimage from '/noImage.jpg'
 
 function Cards({data , title}) {
   return (
-    <div className='px-[5%] flex flex-wrap w-full mt-14 bg-[#1f1e24] h-full overflow-hidden'>
+    <div className='px-[5%] flex flex-wrap w-full pt-14 bg-[#1f1e24] overflow-hidden'>
         {data.map((c, i)=> (
             <Link to={`/${c.media_type || title}/details/${c.id}`} className={`relative ${c.overview ? 'group' : null} w-[24vh] mr-[3%] mb-[5%] flex-grow flex-shrink mx-auto`} key={i}>
                 <img className='shadow-[8px_17px_38px_2px_rgba(0,0,0,.5)] h-[40vh] object-cover' src={c.poster_path ||c.backdrop_path || c.profile_path ? `https://image.tmdb.org/t/p/original/${c.poster_path ||c.backdrop_path || c.profile_path}` : noimage} alt="" />
