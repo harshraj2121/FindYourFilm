@@ -105,4 +105,4 @@ If you have any questions or suggestions, feel free to reach out:
 
 ---
 
-### 🎨 *Design Inspired by Movie Magic!*
+### 🎨 *Design Inspired by @shreyans coding school!*
